@@ -2,14 +2,14 @@
 <html>
 
 <head>
-   <?php include("../cse341-php/web/includes/header.php");
+   <?php include("../web/includes/header.php");
    ?>
-   <link rel="stylesheet" type="text/css" href="../cse341-php/web/public/stylesheets/hobbies.css">
+   <link rel="stylesheet" type="text/css" href="./public/stylesheets/hobbies.css">
 
 </head>
 
 <body>
-   <?php include("../cse341-php/web/includes/nav.php");
+   <?php include("../web/includes/nav.php");
    ?>
    <br>
    <div class="top">
