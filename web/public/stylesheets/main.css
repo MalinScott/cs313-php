@@ -1,3 +1,7 @@
+body{
+  background-color: #5b5e6121;
+}
+
 .jumbotron {
   background: #0065BD;
   color: white;
@@ -21,6 +25,7 @@
   
 .navbar + .jumbotron {
   margin-top: -20px; 
+
 }
   
 .jumbotron .lang-logo {
@@ -37,7 +42,44 @@
   max-width: 100%; 
 }
 
+
+
 .logo {
   width: 5rem;
   height: 5rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: stretch;
+  margin-left: 5rem;
+  
+}
+
+.center_txt{
+  text-align: center;
+}
+hr.hr_top{
+border-top: 5px solid #0065BD;
+width: 80%;
+margin: 0 auto;
+}
+hr.hr_mid{
+  border-top: 5px solid #000000a4;
+  width: 50%;
+  margin: 0 auto;
+  }
+#div_sports{
+  justify-content: left;
+  margin-top: 1rem;
+}
+.section_title{
+  margin-left: 5rem;
+  margin-top: 15rem;
+}
+.middle{
+  margin-top: 20%;
+  margin-bottom: 10%;
 }
