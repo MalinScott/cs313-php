@@ -43,21 +43,6 @@ session_start();
    </div>
    <?php $_SESSION['totalPrice'] = +$_POST['counttotal']?>
 
-   <!-- List of items -->
-   <?php
-   echo "<pre> <br> <hr>";
-   echo "total Items: " . $_SESSION["totalItems"] . "<br>";
-   echo "total Price: " . $_SESSION["totalPrice"] . "<br>";
-   echo $_SESSION["countbasketb"] . "<br>";
-   echo $_SESSION["countsb"] . "<br>";
-   echo $_SESSION["countvb"] . "<br>";
-   echo $_SESSION["countfb"] . "<br>";
-   echo $_SESSION["countbaseb"] . "<br>";
-   print_r($_POST);
-   echo "</pre>";
-   echo "<hr>";
-   //print_r();
-   ?>
 </body>
 
 </html>
