@@ -19,7 +19,7 @@
           Activities <span class="caret"></span></a>
         <ul class="dropdown-menu" role="menu">
           <li><a href="week02/ta/teamAssignment02.html">TA01</a></li>
-          <li><a href="/teamActivites/02/">TA02</a></li>
+          <li><a href="week02/ta/teamAssignment02.html">TA02</a></li>
           <li><a href="/teamActivites/03/">TA03</a></li>
         </ul>
       </li>
