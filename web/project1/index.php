@@ -3,12 +3,12 @@
 
 
 function my_autoloader($class_name) {
-   if(file_exists(__DIR__ . './project1/classes/' . $class_name . '.php')){
-      require_once __DIR__ . './project1/classes/'. $class_name . '.php';
+   if(file_exists(__DIR__ . './classes/' . $class_name . '.php')){
+      require_once __DIR__ . './classes/'. $class_name . '.php';
       
    } 
-   if (file_exists(__DIR__ . './project1/controllers/' . $class_name . '.php')){
-      require_once __DIR__ . './project1/controllers/' . $class_name . '.php';
+   if (file_exists(__DIR__ . './controllers/' . $class_name . '.php')){
+      require_once __DIR__ . './controllers/' . $class_name . '.php';
    }
 }
 
