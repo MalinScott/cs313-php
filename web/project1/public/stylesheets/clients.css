@@ -31,3 +31,23 @@
      border: 1px solid #00695c;
      color: #00695c;
  }
+ul{
+   list-style-type: none;
+   padding: 0%;
+   margin-top: 1.5%;
+}
+
+.search_form{
+   border-radius: 1rem;
+   background: #d0d3d3b2;
+   padding: 20px;
+   width: auto;
+   height: auto;
+   border: 2px solid rgba(148, 146, 146, 0.336);
+   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.247);
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bolder;
+   font-size: x-large;
+   text-decoration: none;
+   
+}
