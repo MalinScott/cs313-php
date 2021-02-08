@@ -13,7 +13,7 @@ function my_autoloader($class_name) {
 }
 
 spl_autoload_register('my_autoloader');
-
+require_once('./controllers/index.php');
 require_once('./routes/Routes.php');
 
 ?>
