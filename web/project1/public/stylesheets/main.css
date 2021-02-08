@@ -1,0 +1,69 @@
+body {
+   background-color: rgba(15, 227, 255, 0.733);
+   height: 100%;
+}
+
+#top_div {
+   border-radius: .3rem;
+   background-color: rgb(255, 255, 255);
+   padding: 1rem;
+   border: 1px solid rgba(2, 2, 2, 0.199);
+   margin-bottom: 2%;
+}
+
+#main_page {
+   margin-top: .8%;
+   background-color: beige;
+   padding: 1em;
+   width: 100%;
+   height: 200px;
+   box-sizing: border-box;
+   box-shadow: 5px 2px 4px 3px rgba(0, 0, 0, 0.247);
+   border-radius: .5rem;
+   height: 100%;
+   width: 100%;
+   border: 1px solid rgba(148, 146, 146, 0.336);
+}
+
+#flex_divs {
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.a_button{
+   text-decoration: none;
+   color: #000000;
+}
+
+.div_button{
+   border-radius: 25px;
+   background: #d0d3d39f;
+   padding: 20px;
+   width: 300px;
+   height: 4rem;
+   margin: 2%;
+   border: 3px outset rgba(148, 146, 146, 0.336);
+   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.247);
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bolder;
+   font-size: x-large;
+   text-decoration: none;
+   
+}
+
+
+.div_button:hover {
+   background-color: rgba(15, 227, 255, 0.349);
+   color: black;
+}
+
+#div_header{
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: bolder;
+   font-size: xx-large;
+   font-display: center;
+}
+
+/* Medium Sized Screens */
+
+/* Large Sized Screens */
