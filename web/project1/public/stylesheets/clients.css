@@ -12,7 +12,7 @@
      font-size: 1rem;
  }
  
- .client_row {
+ .client_row, #ajax_response  {
    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
    padding: 1rem;
    margin-bottom: 1rem;
@@ -25,7 +25,7 @@
      padding: 0;
  }
  
- .clients_details-item {
+ .clients_details-item{
      margin: 0.5rem 0;
      padding: 0.5rem;
      border: 1px solid #00695c;
@@ -50,4 +50,25 @@ ul{
    font-size: x-large;
    text-decoration: none;
    
+}
+
+#ajax_response{
+  margin-top: 1%;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+#ul_left{
+  float: left;
+}
+
+#ul_right{
+  float: right;
+}
+.dropdown{
+  align-items: center;
+  justify-content: center;
+
 }
